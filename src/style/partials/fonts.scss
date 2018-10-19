@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'OpenSans-modest';
+  src: url('../fonts/OpenSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'OpenSans-modest';
+  src: url('../fonts/OpenSans-Regular.woff') format('woff');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'OpenSans-modest';
+  src: url('../fonts/OpenSans-Bold.ttf') format('ttf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'quattrocento_sansbold';
+  src: url('../fonts/quattrocentosans-bold-webfont.woff2') format('woff2'),
+  url('../fonts/quattrocentosans-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'quattrocento_sansregular';
+  src: url('../fonts/quattrocentosans-regular-webfont.woff2') format('woff2'),
+  url('../fonts/quattrocentosans-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}

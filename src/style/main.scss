@@ -1,0 +1,70 @@
+@import "../libs/normalize.css";
+@import "../libs/animate.css";
+@import "partials/vars.scss";
+@import "partials/fonts.scss";
+@import "partials/header.scss";
+@import "partials/about.scss";
+@import "partials/team.scss";
+@import "partials/work.scss";
+@import "partials/service.scss";
+@import "partials/features.scss";
+@import "partials/contact.scss";
+@import "partials/footer.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 14px;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+.grid {
+  display: grid;
+}
+
+/*Modal window*/
+
+.modal-overlay {
+  display: none;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  z-index: 9990;
+}
+.close-popup {
+  width: 30px;
+  height: 30px;
+  background: #FFFFFF;
+  border: 1px solid #AFAFAF;
+  border-radius: 15px;
+  cursor: pointer;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+.close-popup i {
+  width: 30px;
+  height: 30px;
+  background: url(https://codernote.ru/files/cross.png) no-repeat center center;
+  background-size: 16px 16px;
+  display: block;
+}
+@keyframes rota {
+  25% { transform: rotate(360deg); }
+}
+.close-popup:hover {
+  animation: rota 4s infinite normal;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}

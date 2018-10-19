@@ -1,0 +1,102 @@
+.team {
+  height: 649px;
+}
+.team-wrapper {
+  width: 1141px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 175px 1fr;
+  grid-column-gap: 30px;
+  margin: 0 auto;
+}
+.section-title_team {
+  grid-row: 1 / 2;
+  grid-column: 1/5;
+  padding-top: 80px;
+}
+.team-member {
+  height: 374px;
+}
+.team-member__photo {
+  height: 300px;
+}
+.team-member__info {
+  box-sizing: border-box;
+  background: #e1e6ea;
+  height: 74px;
+  padding-left: 18px;
+  padding-top: 16px;
+}
+.team-member:hover .team-member__social-wrapper, .team-member__info:hover .team-member__social-wrapper {
+  opacity: 1;
+  transition: all 1s;
+}
+.team-member:hover .team-member__info h3, .team-member:hover .team-member__info p {
+  color: #ffffff;
+}
+.team-member:hover .team-member__info  {
+  background: #3a454d;
+  transition: all 1s;
+}
+.team-member__name {
+  font-size: 16px;
+  letter-spacing: -1px;
+  word-spacing: 5px;
+  font-family: quattrocento_sansregular, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
+  color: #5a6066;
+  line-height: 23px;
+}
+.team-member__position {
+  font-family: OpenSans-modest, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  color: #a3a6a9;
+}
+.team-member__photo {
+  background: #23b7a4;
+}
+.team-member__photo_ceo {
+  background: url("../img/team/ceo.png");
+}
+.team-member__photo_head-dev {
+  background: url("../img/team/head-dev.png");
+}
+.team-member__photo_designer {
+  background: url("../img/team/designer.png");
+}
+.team-member__photo_client-service {
+  background: url("../img/team/client.png");
+}
+.team-member__social-wrapper {
+  opacity: 0;
+  background: rgba(229, 233, 235, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.team-member__social {
+  font-size: 4px;
+  padding-top: 125px;
+  padding-left: 59px;
+}
+.member-social__item {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background: #3a454d;
+}
+.member-social__icon {
+  display: block;
+  height: 50px;
+  cursor: pointer;
+}
+.member-social__icon_twitter {
+  background: url("../img/footer/social-icon-footer.png") 16px 17px no-repeat;
+}
+.member-social__icon_facebook {
+  background: url("../img/footer/social-icon-footer.png") -16px 17px no-repeat;
+}
+.member-social__icon_linkedin {
+  background: url("../img/footer/social-icon-footer.png") -123px 17px no-repeat;
+}

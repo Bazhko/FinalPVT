@@ -1,0 +1,69 @@
+.services {
+  height: 896px;
+}
+.services-wrapper {
+  width: 1141px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 205px 310px 1fr;
+  grid-column-gap: 20px;
+  margin: 0 auto;
+  height: 100%;
+}
+.section-title_services {
+  grid-column: 1 / 5;
+  grid-row: 1 / 2;
+  height: 190px;
+  padding-top: 80px;
+}
+.service__element {
+  grid-template-columns: 1fr;
+  grid-template-rows: 70px 48px 1fr;
+}
+.element-title {
+  font-family: quattrocento_sansregular, sans-serif;
+  font-size: 17px;
+  letter-spacing: -1px;
+  word-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 11px auto;
+}
+.element-title_setup {
+  padding-right: 20px;
+}
+.element-title_design {
+  word-spacing: 4px;
+  padding-right: 18px;
+}
+.element-title_display {
+  padding-right: 14px;
+  word-spacing: 3px;
+}
+.element-title_support {
+  padding-right: 1px;
+  word-spacing: 4px;
+}
+.element-text {
+  font-family: OpenSans-modest, sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  color: #a4a5a8;
+  text-align: center;
+  padding: 0 5px;
+}
+.element__icon {
+  width: 65px;
+  margin: 0 auto;
+}
+.element__icon_setup {
+  background: url("../img/service/service.png") no-repeat -172px -50px;
+}
+.element__icon_design {
+  background: url("../img/service/service.png") no-repeat -322px -50px;
+}
+.element__icon_display {
+  background: url("../img/service/service.png") no-repeat -31px -49px;
+}
+.element__icon_support {
+  background: url("../img/service/service.png") no-repeat -464px -50px;
+}
