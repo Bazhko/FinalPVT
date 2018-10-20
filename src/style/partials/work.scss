@@ -1,6 +1,7 @@
 .work {
   height: 899px;
   background: $backgroundDark;
+  width: 100%;
 }
 .work-wrapper {
   width: 1141px;
@@ -79,8 +80,6 @@
   opacity: 1;
   transition: all 1s;
 }
-
-
 /* Zoom picture modal*/
 .magnify-picture {
   display: none;
@@ -89,7 +88,6 @@
   height: auto;
   z-index: 9999;
 }
-
 #magnify img {
   width: 100%;
 }

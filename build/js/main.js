@@ -92,7 +92,7 @@ function prevSlide() {
     resetDotStyle();
     setDotActive(slideNow);
 }
-$(function (){
+$(document).ready(function (){
     $('.welcome-page-slide__button_video').click(function(event) {
         $('body').append('<div class="modal-overlay"></div><div class="magnify-video"><iframe width="1903" height="810" src="https://www.youtube.com/embed/8Z1eMy2FoX4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe><div class="close-popup"><i></i></div></div>');
         $('.magnify-video').css({
